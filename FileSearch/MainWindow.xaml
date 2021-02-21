@@ -1,0 +1,15 @@
+﻿<Window x:Class="FileSearch.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FileSearch"
+        mc:Ignorable="d"
+        Title="FileSearch" Height="620" Width="920" Icon="ImageForApp.jpg">
+    <Grid>
+        <Button Content="Поиск" Click ="Search_Click" HorizontalAlignment="Left" Margin="560,25,0,0" VerticalAlignment="Top" Width="160" Height="35"/>
+        <TextBox HorizontalAlignment="Left" Height="35" Margin="10,25,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="260"/>
+        <TextBox HorizontalAlignment="Left" Height="35" Margin="285,25,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="260"/>
+        <Button Content="Остановить" Click="Stop_Search_Click" HorizontalAlignment="Left" Margin="735,25,0,0" VerticalAlignment="Top" Width="160" Height="36"/>
+    </Grid>
+</Window>
